@@ -4,6 +4,7 @@
 
 * [Virtual Box](https://www.virtualbox.org/)
 * [Vagrant](https://www.vagrantup.com/docs/installation/)
+* [vagrant-disksize](https://github.com/sprotheroe/vagrant-disksize)
 
 ## Usage
 

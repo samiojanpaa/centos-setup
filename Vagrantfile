@@ -10,6 +10,7 @@ Vagrant.configure("2") do |config|
     # https://docs.vagrantup.com.
   
     config.vm.box = "centos/stream8"
+    config.disksize.size = '20GB'
   
     config.vm.provider "virtualbox" do |vb|
       # Display the VirtualBox GUI when booting the machine
