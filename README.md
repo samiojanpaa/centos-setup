@@ -21,3 +21,8 @@
 * start: vagrant up
 * stop: vagrant halt
 
+### Misc
+
+* GNOME GUI: `startx`
+* for automatic GNOME GUI: `sudo systemctl set-default graphical.target`
+
