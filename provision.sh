@@ -5,6 +5,8 @@ sudo dnf group install "Workstation" -y
 sudo dnf install subversion -y
 # sudo dnf install dkms -y
 sudo dnf install podman -y
+sudo dnf install podman-compose -y
+sudo dnf install podman-docker -y
 sudo dnf install epel-release -y
 sudo dnf install ansible -y
 sudo dnf install pgadmin4 -y
