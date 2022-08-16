@@ -10,14 +10,14 @@ Vagrant.configure("2") do |config|
     # https://docs.vagrantup.com.
   
     config.vm.box = "centos/stream8"
-    config.disksize.size = '30GB'
+    config.disksize.size = '40GB'
   
     config.vm.provider "virtualbox" do |vb|
       # Display the VirtualBox GUI when booting the machine
       vb.gui = true
     
       # Customize the amount of memory on the VM:
-      vb.memory = 6144
+      vb.memory = 12288
       vb.cpus = 4
   
       vb.customize ["modifyvm", :id, "--vram", "128"]
